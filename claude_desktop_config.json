@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "aseprite": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/aseprite-mcp",
+        "run",
+        "-m",
+        "aseprite_mcp"
+      ],
+      "env": {
+        "ASEPRITE_PATH": "/path/to/aseprite"
+      }
+    },
+    "godot-mcp": {
+      "command": "node",
+      "args": [
+        "/path/to/Godot-MCP/server/dist/index.js"
+      ],
+      "env": {
+        "MCP_TRANSPORT": "stdio"
+      }
+    }
+  }
+}
