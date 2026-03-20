@@ -1,5 +1,29 @@
-typing_extensions>=4.12.2
+# Aseprite MCP — Python dependencies
+# For development/reference. Use `uv sync` for reproducible installs.
+#
+# Install (recommended):
+#   uv sync
+#
+# Install (pip fallback):
+#   pip install -r requirements.txt
+
+# Core MCP framework
+mcp[cli]>=1.6.0
+
+# HTTP client (used for AI feature integrations)
+httpx>=0.28.1
+
+# Environment variable management
 python-dotenv>=1.0.0
-pytest>=8.0.0
-black>=24.0.0
-flake8>=7.0.0
+
+# Data validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Type hints backport
+typing-extensions>=4.12.2
+
+# --- Dev dependencies (optional) ---
+# pytest>=8.0.0
+# black>=24.0.0
+# flake8>=7.0.0
