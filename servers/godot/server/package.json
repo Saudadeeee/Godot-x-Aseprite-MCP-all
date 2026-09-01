@@ -24,7 +24,7 @@
   "dependencies": {
     "fastmcp": "^1.20.4",
     "websocket": "^1.0.35",
-    "ws": "^8.21.1",
+    "ws": "^8.21.3",
     "zod": "^3.25.76"
   },
   "devDependencies": {
